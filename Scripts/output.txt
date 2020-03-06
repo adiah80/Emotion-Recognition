@@ -1,0 +1,7 @@
+File name,prediction
+test2/MEL_dia275_utt6_neutral_NEU.wav,NEU
+test2/MEL_dia319_utt12_neutral_NEU.wav,NEU
+test2/MEL_dia422_utt0_neutral_NEU.wav,NEU
+test2/MEL_dia528_utt1_neutral_NEU.wav,NEU
+test2/MEL_dia528_utt4_neutral_NEU.wav,NEU
+test2/MEL_dia96_utt18_neutral_NEU.wav,NEU

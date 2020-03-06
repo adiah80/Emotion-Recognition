@@ -1,0 +1,77 @@
+
+MODEL TRANSITIONS AND DESCRIPTIONS
+================================================
+
+Model 01-10 : 
+=============
+- Trying to overfit the model to the data, in order to verify whether the model is complicated enough to represent the data well.
+- Tried out differenct values for learning_rate(0.003, 0.001, 0.0003. 0.0001), and the batch_size(32, 128).
+- Finally settled on following values
+	- learning_rate = 0.0003.
+	- batch_size = 32.
+	- 0.0003 was the highest learning rate for which the model was converging (overfitting).
+	- The model didn't converge for learning_rate = 0.003 and 0.001, as can be seen from log1 , log2, log8, log9.
+	- The model converged faster for batch_size=32, this can be observed by comparing log3 and log5 at around the 17th epoch.
+
+
+Model 11-17 :
+=============
+- Trying to make the model generalize.
+- Model 11 : Introduced slight(p = 0.3) regularization in convolutional layers.
+- Model 12 : Introduced regularization in fully connected layers.
+- Model 13 : 
+	- Increase the regulariation.
+	- Convolutional layers, p = 0.2
+	- Fully connected layers, p = 0.3
+	- Model still overfits.
+- Model 14 : Increased regularization to p=0.4 for fully connected layers.
+- Model 15/16 : Experimented with different values of dropout.
+
+
+Model 17-23 :
+=============
+- Model 17 : 
+	- Introduced Batch Normalization.
+	- Model failed to converge.
+
+- Model 18 : 
+	- Increased batch-size to 128, to get better performance with batch-norm.
+	- Model performance didn't increase.
+	- Referece : https://datascience.stackexchange.com/questions/41873/batch-normalization-vs-batch-size
+		[ Batch normalization vs batch size ]
+
+- Model 19 :
+	- Realized that Batch-norm and Droupout don't work well together.
+	- Removed all dropout.
+	- Model perofrmance significantly increased.
+	- Reference : https://arxiv.org/abs/1801.05134
+		[ Understanding the Disharmony between Dropout and Batch Normalization by Variance Shift ]
+
+- Model 20 :
+	- Tried SGD instead of Adam with momentum=0.9
+	- No significant difference.
+	- Accuracy graph smoothened out.
+
+- Model 21:
+	- Back to Adam, reduced learning rate to 0.0001
+	- Better convergence.
+
+- Model 22:
+	- Added slight dropout(p=0.3) to fully connected layers.
+	- Better model performance.
+	- Encapsulated into python scripts.
+
+- Model 23:
+	- Increased dropout to p=0.5
+
+
+NOTES ABOUT LOGS :
+================================================
+Model 1-4 : Logs only in Text format.
+Model 5-23 : Logs in Text, Graphs, and Pickle format.
+
+Model 1-7 : Only Train Logs.
+Model 8-23 : Both Train and Validation Logs.
+
+Refer to individual log files in folder `Training_logs` for detailed logs.
+Refer to `Evolution_of_Accuracy.pdf` for accuracy comparision of different models.

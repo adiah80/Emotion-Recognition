@@ -1,0 +1,818 @@
+model_no =  3
+batch_size =  32
+learning_rate =  0.0001
+num_epochs =  30
+num_iters =  6885
+inspect_size =  20
+best_loss =  0.9053947329521179
+best_acc =  100.0
+
+====================================================================================================================
+Epoch :   0
+HBox(children=(IntProgress(value=0, max=230), HTML(value='')))
+Iteration : 10/6885 [ 0%] 
+[Train]	 Loss: 1.36	 Accuracy: 59.38
+Iteration : 30/6885 [ 0%] 
+[Train]	 Loss: 1.10	 Accuracy: 68.75
+Iteration : 50/6885 [ 1%] 
+[Train]	 Loss: 1.33	 Accuracy: 53.12
+Iteration : 70/6885 [ 1%] 
+[Train]	 Loss: 1.34	 Accuracy: 37.50
+Iteration : 90/6885 [ 1%] 
+[Train]	 Loss: 1.30	 Accuracy: 34.38
+Iteration : 110/6885 [ 2%] 
+[Train]	 Loss: 1.55	 Accuracy: 40.62
+Iteration : 130/6885 [ 2%] 
+[Train]	 Loss: 1.32	 Accuracy: 40.62
+Iteration : 150/6885 [ 2%] 
+[Train]	 Loss: 1.44	 Accuracy: 46.88
+Iteration : 170/6885 [ 2%] 
+[Train]	 Loss: 1.40	 Accuracy: 53.12
+Iteration : 190/6885 [ 3%] 
+[Train]	 Loss: 1.52	 Accuracy: 40.62
+Iteration : 210/6885 [ 3%] 
+[Train]	 Loss: 1.39	 Accuracy: 65.62
+Iteration : 230/6885 [ 3%] 
+[Train]	 Loss: 1.48	 Accuracy: 35.29
+
+====================================================================================================================
+Epoch :   1
+HBox(children=(IntProgress(value=0, max=230), HTML(value='')))
+Iteration : 250/6885 [ 4%] 
+[Train]	 Loss: 1.16	 Accuracy: 62.50
+Iteration : 270/6885 [ 4%] 
+[Train]	 Loss: 1.21	 Accuracy: 59.38
+Iteration : 290/6885 [ 4%] 
+[Train]	 Loss: 1.28	 Accuracy: 56.25
+Iteration : 310/6885 [ 5%] 
+[Train]	 Loss: 1.48	 Accuracy: 46.88
+Iteration : 330/6885 [ 5%] 
+[Train]	 Loss: 1.22	 Accuracy: 46.88
+Iteration : 350/6885 [ 5%] 
+[Train]	 Loss: 1.64	 Accuracy: 46.88
+Iteration : 370/6885 [ 5%] 
+[Train]	 Loss: 1.32	 Accuracy: 59.38
+Iteration : 390/6885 [ 6%] 
+[Train]	 Loss: 1.41	 Accuracy: 46.88
+Iteration : 410/6885 [ 6%] 
+[Train]	 Loss: 1.41	 Accuracy: 46.88
+Iteration : 430/6885 [ 6%] 
+[Train]	 Loss: 1.34	 Accuracy: 56.25
+Iteration : 450/6885 [ 7%] 
+[Train]	 Loss: 1.43	 Accuracy: 62.50
+
+====================================================================================================================
+Epoch :   2
+HBox(children=(IntProgress(value=0, max=230), HTML(value='')))
+Iteration : 470/6885 [ 7%] 
+[Train]	 Loss: 1.47	 Accuracy: 56.25
+Iteration : 490/6885 [ 7%] 
+[Train]	 Loss: 1.32	 Accuracy: 56.25
+Iteration : 510/6885 [ 7%] 
+[Train]	 Loss: 1.21	 Accuracy: 59.38
+Iteration : 530/6885 [ 8%] 
+[Train]	 Loss: 1.06	 Accuracy: 78.12
+Iteration : 550/6885 [ 8%] 
+[Train]	 Loss: 1.39	 Accuracy: 50.00
+Iteration : 570/6885 [ 8%] 
+[Train]	 Loss: 1.42	 Accuracy: 50.00
+Iteration : 590/6885 [ 9%] 
+[Train]	 Loss: 1.26	 Accuracy: 59.38
+Iteration : 610/6885 [ 9%] 
+[Train]	 Loss: 1.30	 Accuracy: 53.12
+Iteration : 630/6885 [ 9%] 
+[Train]	 Loss: 1.41	 Accuracy: 53.12
+Iteration : 650/6885 [ 9%] 
+[Train]	 Loss: 1.40	 Accuracy: 43.75
+Iteration : 670/6885 [10%] 
+[Train]	 Loss: 1.49	 Accuracy: 53.12
+Iteration : 690/6885 [10%] 
+[Train]	 Loss: 1.40	 Accuracy: 52.94
+
+====================================================================================================================
+Epoch :   3
+HBox(children=(IntProgress(value=0, max=230), HTML(value='')))
+Iteration : 710/6885 [10%] 
+[Train]	 Loss: 1.69	 Accuracy: 50.00
+Iteration : 730/6885 [11%] 
+[Train]	 Loss: 1.33	 Accuracy: 53.12
+Iteration : 750/6885 [11%] 
+[Train]	 Loss: 1.26	 Accuracy: 53.12
+Iteration : 770/6885 [11%] 
+[Train]	 Loss: 1.42	 Accuracy: 62.50
+Iteration : 790/6885 [11%] 
+[Train]	 Loss: 1.14	 Accuracy: 59.38
+Iteration : 810/6885 [12%] 
+[Train]	 Loss: 1.48	 Accuracy: 50.00
+Iteration : 830/6885 [12%] 
+[Train]	 Loss: 1.30	 Accuracy: 62.50
+Iteration : 850/6885 [12%] 
+[Train]	 Loss: 1.30	 Accuracy: 59.38
+Iteration : 870/6885 [13%] 
+[Train]	 Loss: 1.36	 Accuracy: 59.38
+Iteration : 890/6885 [13%] 
+[Train]	 Loss: 1.08	 Accuracy: 68.75
+Iteration : 910/6885 [13%] 
+[Train]	 Loss: 1.46	 Accuracy: 43.75
+
+====================================================================================================================
+Epoch :   4
+HBox(children=(IntProgress(value=0, max=230), HTML(value='')))
+Iteration : 930/6885 [14%] 
+[Train]	 Loss: 1.36	 Accuracy: 62.50
+Iteration : 950/6885 [14%] 
+[Train]	 Loss: 1.17	 Accuracy: 71.88
+Iteration : 970/6885 [14%] 
+[Train]	 Loss: 1.14	 Accuracy: 78.12
+Iteration : 990/6885 [14%] 
+[Train]	 Loss: 1.56	 Accuracy: 56.25
+Iteration : 1010/6885 [15%] 
+[Train]	 Loss: 1.40	 Accuracy: 56.25
+Iteration : 1030/6885 [15%] 
+[Train]	 Loss: 1.29	 Accuracy: 50.00
+Iteration : 1050/6885 [15%] 
+[Train]	 Loss: 1.07	 Accuracy: 59.38
+Iteration : 1070/6885 [16%] 
+[Train]	 Loss: 1.50	 Accuracy: 46.88
+Iteration : 1090/6885 [16%] 
+[Train]	 Loss: 1.06	 Accuracy: 65.62
+Iteration : 1110/6885 [16%] 
+[Train]	 Loss: 1.10	 Accuracy: 75.00
+Iteration : 1130/6885 [16%] 
+[Train]	 Loss: 1.10	 Accuracy: 59.38
+Iteration : 1150/6885 [17%] 
+[Train]	 Loss: 1.00	 Accuracy: 70.59
+
+====================================================================================================================
+Epoch :   5
+HBox(children=(IntProgress(value=0, max=230), HTML(value='')))
+Iteration : 1170/6885 [17%] 
+[Train]	 Loss: 1.22	 Accuracy: 75.00
+Iteration : 1190/6885 [17%] 
+[Train]	 Loss: 1.39	 Accuracy: 56.25
+Iteration : 1210/6885 [18%] 
+[Train]	 Loss: 1.32	 Accuracy: 62.50
+Iteration : 1230/6885 [18%] 
+[Train]	 Loss: 1.20	 Accuracy: 78.12
+Iteration : 1250/6885 [18%] 
+[Train]	 Loss: 1.25	 Accuracy: 56.25
+Iteration : 1270/6885 [18%] 
+[Train]	 Loss: 1.33	 Accuracy: 59.38
+Iteration : 1290/6885 [19%] 
+[Train]	 Loss: 1.33	 Accuracy: 53.12
+Iteration : 1310/6885 [19%] 
+[Train]	 Loss: 1.28	 Accuracy: 62.50
+Iteration : 1330/6885 [19%] 
+[Train]	 Loss: 1.31	 Accuracy: 50.00
+Iteration : 1350/6885 [20%] 
+[Train]	 Loss: 1.30	 Accuracy: 53.12
+Iteration : 1370/6885 [20%] 
+[Train]	 Loss: 1.42	 Accuracy: 62.50
+
+====================================================================================================================
+Epoch :   6
+HBox(children=(IntProgress(value=0, max=230), HTML(value='')))
+Iteration : 1390/6885 [20%] 
+[Train]	 Loss: 1.23	 Accuracy: 56.25
+Iteration : 1410/6885 [20%] 
+[Train]	 Loss: 1.30	 Accuracy: 56.25
+Iteration : 1430/6885 [21%] 
+[Train]	 Loss: 1.17	 Accuracy: 65.62
+Iteration : 1450/6885 [21%] 
+[Train]	 Loss: 1.04	 Accuracy: 78.12
+Iteration : 1470/6885 [21%] 
+[Train]	 Loss: 1.24	 Accuracy: 56.25
+Iteration : 1490/6885 [22%] 
+[Train]	 Loss: 1.34	 Accuracy: 53.12
+Iteration : 1510/6885 [22%] 
+[Train]	 Loss: 1.33	 Accuracy: 53.12
+Iteration : 1530/6885 [22%] 
+[Train]	 Loss: 1.02	 Accuracy: 78.12
+Iteration : 1550/6885 [23%] 
+[Train]	 Loss: 1.07	 Accuracy: 68.75
+Iteration : 1570/6885 [23%] 
+[Train]	 Loss: 1.17	 Accuracy: 62.50
+Iteration : 1590/6885 [23%] 
+[Train]	 Loss: 1.06	 Accuracy: 71.88
+Iteration : 1610/6885 [23%] 
+[Train]	 Loss: 1.29	 Accuracy: 58.82
+
+====================================================================================================================
+Epoch :   7
+HBox(children=(IntProgress(value=0, max=230), HTML(value='')))
+Iteration : 1630/6885 [24%] 
+[Train]	 Loss: 1.07	 Accuracy: 71.88
+Iteration : 1650/6885 [24%] 
+[Train]	 Loss: 1.26	 Accuracy: 62.50
+Iteration : 1670/6885 [24%] 
+[Train]	 Loss: 1.18	 Accuracy: 71.88
+Iteration : 1690/6885 [25%] 
+[Train]	 Loss: 1.39	 Accuracy: 65.62
+Iteration : 1710/6885 [25%] 
+[Train]	 Loss: 1.27	 Accuracy: 71.88
+Iteration : 1730/6885 [25%] 
+[Train]	 Loss: 1.21	 Accuracy: 71.88
+Iteration : 1750/6885 [25%] 
+[Train]	 Loss: 1.08	 Accuracy: 78.12
+Iteration : 1770/6885 [26%] 
+[Train]	 Loss: 1.32	 Accuracy: 71.88
+Iteration : 1790/6885 [26%] 
+[Train]	 Loss: 1.17	 Accuracy: 65.62
+Iteration : 1810/6885 [26%] 
+[Train]	 Loss: 1.21	 Accuracy: 71.88
+Iteration : 1830/6885 [27%] 
+[Train]	 Loss: 1.59	 Accuracy: 34.38
+
+====================================================================================================================
+Epoch :   8
+HBox(children=(IntProgress(value=0, max=230), HTML(value='')))
+Iteration : 1850/6885 [27%] 
+[Train]	 Loss: 1.27	 Accuracy: 78.12
+Iteration : 1870/6885 [27%] 
+[Train]	 Loss: 1.26	 Accuracy: 75.00
+Iteration : 1890/6885 [27%] 
+[Train]	 Loss: 1.26	 Accuracy: 75.00
+Iteration : 1910/6885 [28%] 
+[Train]	 Loss: 1.24	 Accuracy: 56.25
+Iteration : 1930/6885 [28%] 
+[Train]	 Loss: 1.15	 Accuracy: 68.75
+Iteration : 1950/6885 [28%] 
+[Train]	 Loss: 1.22	 Accuracy: 75.00
+Iteration : 1970/6885 [29%] 
+[Train]	 Loss: 1.16	 Accuracy: 75.00
+Iteration : 1990/6885 [29%] 
+[Train]	 Loss: 1.25	 Accuracy: 81.25
+Iteration : 2010/6885 [29%] 
+[Train]	 Loss: 1.37	 Accuracy: 78.12
+Iteration : 2030/6885 [29%] 
+[Train]	 Loss: 1.03	 Accuracy: 84.38
+Iteration : 2050/6885 [30%] 
+[Train]	 Loss: 1.40	 Accuracy: 81.25
+Iteration : 2070/6885 [30%] 
+[Train]	 Loss: 1.22	 Accuracy: 58.82
+
+====================================================================================================================
+Epoch :   9
+HBox(children=(IntProgress(value=0, max=230), HTML(value='')))
+Iteration : 2090/6885 [30%] 
+[Train]	 Loss: 1.32	 Accuracy: 71.88
+Iteration : 2110/6885 [31%] 
+[Train]	 Loss: 1.26	 Accuracy: 68.75
+Iteration : 2130/6885 [31%] 
+[Train]	 Loss: 1.06	 Accuracy: 81.25
+Iteration : 2150/6885 [31%] 
+[Train]	 Loss: 1.11	 Accuracy: 75.00
+Iteration : 2170/6885 [32%] 
+[Train]	 Loss: 1.29	 Accuracy: 75.00
+Iteration : 2190/6885 [32%] 
+[Train]	 Loss: 1.17	 Accuracy: 65.62
+Iteration : 2210/6885 [32%] 
+[Train]	 Loss: 1.41	 Accuracy: 62.50
+Iteration : 2230/6885 [32%] 
+[Train]	 Loss: 1.57	 Accuracy: 56.25
+Iteration : 2250/6885 [33%] 
+[Train]	 Loss: 1.08	 Accuracy: 68.75
+Iteration : 2270/6885 [33%] 
+[Train]	 Loss: 1.19	 Accuracy: 87.50
+Iteration : 2290/6885 [33%] 
+[Train]	 Loss: 1.37	 Accuracy: 75.00
+
+====================================================================================================================
+Epoch :  10
+HBox(children=(IntProgress(value=0, max=230), HTML(value='')))
+Iteration : 2310/6885 [34%] 
+[Train]	 Loss: 1.64	 Accuracy: 46.88
+Iteration : 2330/6885 [34%] 
+[Train]	 Loss: 1.05	 Accuracy: 78.12
+Iteration : 2350/6885 [34%] 
+[Train]	 Loss: 1.05	 Accuracy: 75.00
+Iteration : 2370/6885 [34%] 
+[Train]	 Loss: 1.11	 Accuracy: 81.25
+Iteration : 2390/6885 [35%] 
+[Train]	 Loss: 1.14	 Accuracy: 78.12
+Iteration : 2410/6885 [35%] 
+[Train]	 Loss: 1.36	 Accuracy: 65.62
+Iteration : 2430/6885 [35%] 
+[Train]	 Loss: 1.21	 Accuracy: 71.88
+Iteration : 2450/6885 [36%] 
+[Train]	 Loss: 1.39	 Accuracy: 71.88
+Iteration : 2470/6885 [36%] 
+[Train]	 Loss: 1.10	 Accuracy: 75.00
+Iteration : 2490/6885 [36%] 
+[Train]	 Loss: 1.00	 Accuracy: 84.38
+Iteration : 2510/6885 [36%] 
+[Train]	 Loss: 1.22	 Accuracy: 68.75
+Iteration : 2530/6885 [37%] 
+[Train]	 Loss: 1.07	 Accuracy: 64.71
+
+====================================================================================================================
+Epoch :  11
+HBox(children=(IntProgress(value=0, max=230), HTML(value='')))
+Iteration : 2550/6885 [37%] 
+[Train]	 Loss: 1.01	 Accuracy: 84.38
+Iteration : 2570/6885 [37%] 
+[Train]	 Loss: 1.02	 Accuracy: 84.38
+Iteration : 2590/6885 [38%] 
+[Train]	 Loss: 1.11	 Accuracy: 84.38
+Iteration : 2610/6885 [38%] 
+[Train]	 Loss: 1.08	 Accuracy: 87.50
+Iteration : 2630/6885 [38%] 
+[Train]	 Loss: 1.13	 Accuracy: 75.00
+Iteration : 2650/6885 [38%] 
+[Train]	 Loss: 1.29	 Accuracy: 78.12
+Iteration : 2670/6885 [39%] 
+[Train]	 Loss: 1.15	 Accuracy: 68.75
+Iteration : 2690/6885 [39%] 
+[Train]	 Loss: 0.96	 Accuracy: 93.75
+Iteration : 2710/6885 [39%] 
+[Train]	 Loss: 0.97	 Accuracy: 87.50
+Iteration : 2730/6885 [40%] 
+[Train]	 Loss: 1.23	 Accuracy: 71.88
+Iteration : 2750/6885 [40%] 
+[Train]	 Loss: 1.21	 Accuracy: 62.50
+
+====================================================================================================================
+Epoch :  12
+HBox(children=(IntProgress(value=0, max=230), HTML(value='')))
+Iteration : 2770/6885 [40%] 
+[Train]	 Loss: 1.07	 Accuracy: 87.50
+Iteration : 2790/6885 [41%] 
+[Train]	 Loss: 1.02	 Accuracy: 84.38
+Iteration : 2810/6885 [41%] 
+[Train]	 Loss: 1.20	 Accuracy: 81.25
+Iteration : 2830/6885 [41%] 
+[Train]	 Loss: 1.36	 Accuracy: 59.38
+Iteration : 2850/6885 [41%] 
+[Train]	 Loss: 1.13	 Accuracy: 68.75
+Iteration : 2870/6885 [42%] 
+[Train]	 Loss: 1.10	 Accuracy: 78.12
+Iteration : 2890/6885 [42%] 
+[Train]	 Loss: 1.23	 Accuracy: 81.25
+Iteration : 2910/6885 [42%] 
+[Train]	 Loss: 1.15	 Accuracy: 71.88
+Iteration : 2930/6885 [43%] 
+[Train]	 Loss: 1.13	 Accuracy: 75.00
+Iteration : 2950/6885 [43%] 
+[Train]	 Loss: 1.15	 Accuracy: 75.00
+Iteration : 2970/6885 [43%] 
+[Train]	 Loss: 1.00	 Accuracy: 81.25
+Iteration : 2990/6885 [43%] 
+[Train]	 Loss: 1.56	 Accuracy: 58.82
+
+====================================================================================================================
+Epoch :  13
+HBox(children=(IntProgress(value=0, max=230), HTML(value='')))
+Iteration : 3010/6885 [44%] 
+[Train]	 Loss: 1.25	 Accuracy: 62.50
+Iteration : 3030/6885 [44%] 
+[Train]	 Loss: 1.30	 Accuracy: 71.88
+Iteration : 3050/6885 [44%] 
+[Train]	 Loss: 1.08	 Accuracy: 68.75
+Iteration : 3070/6885 [45%] 
+[Train]	 Loss: 1.26	 Accuracy: 81.25
+Iteration : 3090/6885 [45%] 
+[Train]	 Loss: 1.17	 Accuracy: 78.12
+Iteration : 3110/6885 [45%] 
+[Train]	 Loss: 0.96	 Accuracy: 84.38
+Iteration : 3130/6885 [45%] 
+[Train]	 Loss: 0.98	 Accuracy: 84.38
+Iteration : 3150/6885 [46%] 
+[Train]	 Loss: 1.06	 Accuracy: 87.50
+Iteration : 3170/6885 [46%] 
+[Train]	 Loss: 1.18	 Accuracy: 71.88
+Iteration : 3190/6885 [46%] 
+[Train]	 Loss: 1.32	 Accuracy: 68.75
+Iteration : 3210/6885 [47%] 
+[Train]	 Loss: 1.14	 Accuracy: 81.25
+
+====================================================================================================================
+Epoch :  14
+HBox(children=(IntProgress(value=0, max=230), HTML(value='')))
+Iteration : 3230/6885 [47%] 
+[Train]	 Loss: 1.28	 Accuracy: 87.50
+Iteration : 3250/6885 [47%] 
+[Train]	 Loss: 1.13	 Accuracy: 75.00
+Iteration : 3270/6885 [47%] 
+[Train]	 Loss: 1.26	 Accuracy: 81.25
+Iteration : 3290/6885 [48%] 
+[Train]	 Loss: 1.29	 Accuracy: 65.62
+Iteration : 3310/6885 [48%] 
+[Train]	 Loss: 1.18	 Accuracy: 81.25
+Iteration : 3330/6885 [48%] 
+[Train]	 Loss: 1.03	 Accuracy: 90.62
+Iteration : 3350/6885 [49%] 
+[Train]	 Loss: 1.35	 Accuracy: 68.75
+Iteration : 3370/6885 [49%] 
+[Train]	 Loss: 1.25	 Accuracy: 71.88
+Iteration : 3390/6885 [49%] 
+[Train]	 Loss: 1.18	 Accuracy: 75.00
+Iteration : 3410/6885 [50%] 
+[Train]	 Loss: 1.20	 Accuracy: 84.38
+Iteration : 3430/6885 [50%] 
+[Train]	 Loss: 0.99	 Accuracy: 78.12
+Iteration : 3450/6885 [50%] 
+[Train]	 Loss: 0.97	 Accuracy: 88.24
+
+====================================================================================================================
+Epoch :  15
+HBox(children=(IntProgress(value=0, max=230), HTML(value='')))
+Iteration : 3470/6885 [50%] 
+[Train]	 Loss: 1.14	 Accuracy: 84.38
+Iteration : 3490/6885 [51%] 
+[Train]	 Loss: 1.16	 Accuracy: 78.12
+Iteration : 3510/6885 [51%] 
+[Train]	 Loss: 1.20	 Accuracy: 75.00
+Iteration : 3530/6885 [51%] 
+[Train]	 Loss: 1.25	 Accuracy: 81.25
+Iteration : 3550/6885 [52%] 
+[Train]	 Loss: 0.97	 Accuracy: 84.38
+Iteration : 3570/6885 [52%] 
+[Train]	 Loss: 1.43	 Accuracy: 56.25
+Iteration : 3590/6885 [52%] 
+[Train]	 Loss: 1.30	 Accuracy: 71.88
+Iteration : 3610/6885 [52%] 
+[Train]	 Loss: 1.11	 Accuracy: 87.50
+Iteration : 3630/6885 [53%] 
+[Train]	 Loss: 1.36	 Accuracy: 65.62
+Iteration : 3650/6885 [53%] 
+[Train]	 Loss: 1.24	 Accuracy: 68.75
+Iteration : 3670/6885 [53%] 
+[Train]	 Loss: 1.02	 Accuracy: 81.25
+
+====================================================================================================================
+Epoch :  16
+HBox(children=(IntProgress(value=0, max=230), HTML(value='')))
+Iteration : 3690/6885 [54%] 
+[Train]	 Loss: 1.12	 Accuracy: 84.38
+Iteration : 3710/6885 [54%] 
+[Train]	 Loss: 1.23	 Accuracy: 75.00
+Iteration : 3730/6885 [54%] 
+[Train]	 Loss: 1.30	 Accuracy: 84.38
+Iteration : 3750/6885 [54%] 
+[Train]	 Loss: 1.00	 Accuracy: 87.50
+Iteration : 3770/6885 [55%] 
+[Train]	 Loss: 1.01	 Accuracy: 81.25
+Iteration : 3790/6885 [55%] 
+[Train]	 Loss: 1.21	 Accuracy: 75.00
+Iteration : 3810/6885 [55%] 
+[Train]	 Loss: 1.06	 Accuracy: 81.25
+Iteration : 3830/6885 [56%] 
+[Train]	 Loss: 1.37	 Accuracy: 78.12
+Iteration : 3850/6885 [56%] 
+[Train]	 Loss: 0.99	 Accuracy: 90.62
+Iteration : 3870/6885 [56%] 
+[Train]	 Loss: 1.06	 Accuracy: 87.50
+Iteration : 3890/6885 [56%] 
+[Train]	 Loss: 1.00	 Accuracy: 87.50
+Iteration : 3910/6885 [57%] 
+[Train]	 Loss: 0.94	 Accuracy: 100.00
+
+====================================================================================================================
+Epoch :  17
+HBox(children=(IntProgress(value=0, max=230), HTML(value='')))
+Iteration : 3930/6885 [57%] 
+[Train]	 Loss: 1.13	 Accuracy: 81.25
+Iteration : 3950/6885 [57%] 
+[Train]	 Loss: 1.12	 Accuracy: 81.25
+Iteration : 3970/6885 [58%] 
+[Train]	 Loss: 1.06	 Accuracy: 87.50
+Iteration : 3990/6885 [58%] 
+[Train]	 Loss: 1.18	 Accuracy: 71.88
+Iteration : 4010/6885 [58%] 
+[Train]	 Loss: 1.48	 Accuracy: 68.75
+Iteration : 4030/6885 [59%] 
+[Train]	 Loss: 0.96	 Accuracy: 90.62
+Iteration : 4050/6885 [59%] 
+[Train]	 Loss: 1.19	 Accuracy: 87.50
+Iteration : 4070/6885 [59%] 
+[Train]	 Loss: 1.28	 Accuracy: 81.25
+Iteration : 4090/6885 [59%] 
+[Train]	 Loss: 1.16	 Accuracy: 68.75
+Iteration : 4110/6885 [60%] 
+[Train]	 Loss: 1.36	 Accuracy: 81.25
+Iteration : 4130/6885 [60%] 
+[Train]	 Loss: 1.20	 Accuracy: 71.88
+
+====================================================================================================================
+Epoch :  18
+HBox(children=(IntProgress(value=0, max=230), HTML(value='')))
+Iteration : 4150/6885 [60%] 
+[Train]	 Loss: 1.12	 Accuracy: 90.62
+Iteration : 4170/6885 [61%] 
+[Train]	 Loss: 1.27	 Accuracy: 90.62
+Iteration : 4190/6885 [61%] 
+[Train]	 Loss: 1.12	 Accuracy: 84.38
+Iteration : 4210/6885 [61%] 
+[Train]	 Loss: 1.18	 Accuracy: 81.25
+Iteration : 4230/6885 [61%] 
+[Train]	 Loss: 1.28	 Accuracy: 68.75
+Iteration : 4250/6885 [62%] 
+[Train]	 Loss: 1.08	 Accuracy: 75.00
+Iteration : 4270/6885 [62%] 
+[Train]	 Loss: 1.08	 Accuracy: 81.25
+Iteration : 4290/6885 [62%] 
+[Train]	 Loss: 1.06	 Accuracy: 87.50
+Iteration : 4310/6885 [63%] 
+[Train]	 Loss: 0.95	 Accuracy: 87.50
+Iteration : 4330/6885 [63%] 
+[Train]	 Loss: 1.07	 Accuracy: 87.50
+Iteration : 4350/6885 [63%] 
+[Train]	 Loss: 1.55	 Accuracy: 59.38
+Iteration : 4370/6885 [63%] 
+[Train]	 Loss: 0.91	 Accuracy: 100.00
+
+====================================================================================================================
+Epoch :  19
+HBox(children=(IntProgress(value=0, max=230), HTML(value='')))
+Iteration : 4390/6885 [64%] 
+[Train]	 Loss: 1.22	 Accuracy: 84.38
+Iteration : 4410/6885 [64%] 
+[Train]	 Loss: 1.19	 Accuracy: 84.38
+Iteration : 4430/6885 [64%] 
+[Train]	 Loss: 1.04	 Accuracy: 78.12
+Iteration : 4450/6885 [65%] 
+[Train]	 Loss: 1.22	 Accuracy: 75.00
+Iteration : 4470/6885 [65%] 
+[Train]	 Loss: 1.19	 Accuracy: 78.12
+Iteration : 4490/6885 [65%] 
+[Train]	 Loss: 1.13	 Accuracy: 84.38
+Iteration : 4510/6885 [66%] 
+[Train]	 Loss: 1.02	 Accuracy: 87.50
+Iteration : 4530/6885 [66%] 
+[Train]	 Loss: 1.34	 Accuracy: 81.25
+Iteration : 4550/6885 [66%] 
+[Train]	 Loss: 1.08	 Accuracy: 87.50
+Iteration : 4570/6885 [66%] 
+[Train]	 Loss: 1.00	 Accuracy: 90.62
+Iteration : 4590/6885 [67%] 
+[Train]	 Loss: 1.23	 Accuracy: 78.12
+
+====================================================================================================================
+Epoch :  20
+HBox(children=(IntProgress(value=0, max=230), HTML(value='')))
+Iteration : 4610/6885 [67%] 
+[Train]	 Loss: 1.05	 Accuracy: 81.25
+Iteration : 4630/6885 [67%] 
+[Train]	 Loss: 1.15	 Accuracy: 78.12
+Iteration : 4650/6885 [68%] 
+[Train]	 Loss: 1.05	 Accuracy: 93.75
+Iteration : 4670/6885 [68%] 
+[Train]	 Loss: 0.99	 Accuracy: 90.62
+Iteration : 4690/6885 [68%] 
+[Train]	 Loss: 1.18	 Accuracy: 87.50
+Iteration : 4710/6885 [68%] 
+[Train]	 Loss: 0.97	 Accuracy: 75.00
+Iteration : 4730/6885 [69%] 
+[Train]	 Loss: 1.05	 Accuracy: 90.62
+Iteration : 4750/6885 [69%] 
+[Train]	 Loss: 1.12	 Accuracy: 71.88
+Iteration : 4770/6885 [69%] 
+[Train]	 Loss: 1.09	 Accuracy: 87.50
+Iteration : 4790/6885 [70%] 
+[Train]	 Loss: 0.95	 Accuracy: 90.62
+Iteration : 4810/6885 [70%] 
+[Train]	 Loss: 1.44	 Accuracy: 84.38
+Iteration : 4830/6885 [70%] 
+[Train]	 Loss: 1.46	 Accuracy: 70.59
+
+====================================================================================================================
+Epoch :  21
+HBox(children=(IntProgress(value=0, max=230), HTML(value='')))
+Iteration : 4850/6885 [70%] 
+[Train]	 Loss: 1.11	 Accuracy: 78.12
+Iteration : 4870/6885 [71%] 
+[Train]	 Loss: 1.13	 Accuracy: 78.12
+Iteration : 4890/6885 [71%] 
+[Train]	 Loss: 1.25	 Accuracy: 78.12
+Iteration : 4910/6885 [71%] 
+[Train]	 Loss: 0.95	 Accuracy: 90.62
+Iteration : 4930/6885 [72%] 
+[Train]	 Loss: 1.23	 Accuracy: 81.25
+Iteration : 4950/6885 [72%] 
+[Train]	 Loss: 1.00	 Accuracy: 90.62
+Iteration : 4970/6885 [72%] 
+[Train]	 Loss: 1.16	 Accuracy: 90.62
+Iteration : 4990/6885 [72%] 
+[Train]	 Loss: 1.20	 Accuracy: 84.38
+Iteration : 5010/6885 [73%] 
+[Train]	 Loss: 1.03	 Accuracy: 84.38
+Iteration : 5030/6885 [73%] 
+[Train]	 Loss: 1.28	 Accuracy: 81.25
+Iteration : 5050/6885 [73%] 
+[Train]	 Loss: 1.29	 Accuracy: 84.38
+
+====================================================================================================================
+Epoch :  22
+HBox(children=(IntProgress(value=0, max=230), HTML(value='')))
+Iteration : 5070/6885 [74%] 
+[Train]	 Loss: 1.02	 Accuracy: 87.50
+Iteration : 5090/6885 [74%] 
+[Train]	 Loss: 1.16	 Accuracy: 90.62
+Iteration : 5110/6885 [74%] 
+[Train]	 Loss: 1.24	 Accuracy: 87.50
+Iteration : 5130/6885 [75%] 
+[Train]	 Loss: 0.97	 Accuracy: 90.62
+Iteration : 5150/6885 [75%] 
+[Train]	 Loss: 1.04	 Accuracy: 87.50
+Iteration : 5170/6885 [75%] 
+[Train]	 Loss: 1.09	 Accuracy: 84.38
+Iteration : 5190/6885 [75%] 
+[Train]	 Loss: 1.21	 Accuracy: 87.50
+Iteration : 5210/6885 [76%] 
+[Train]	 Loss: 1.24	 Accuracy: 81.25
+Iteration : 5230/6885 [76%] 
+[Train]	 Loss: 1.01	 Accuracy: 84.38
+Iteration : 5250/6885 [76%] 
+[Train]	 Loss: 1.06	 Accuracy: 90.62
+Iteration : 5270/6885 [77%] 
+[Train]	 Loss: 1.24	 Accuracy: 78.12
+Iteration : 5290/6885 [77%] 
+[Train]	 Loss: 1.05	 Accuracy: 82.35
+
+====================================================================================================================
+Epoch :  23
+HBox(children=(IntProgress(value=0, max=230), HTML(value='')))
+Iteration : 5310/6885 [77%] 
+[Train]	 Loss: 1.23	 Accuracy: 75.00
+Iteration : 5330/6885 [77%] 
+[Train]	 Loss: 0.94	 Accuracy: 93.75
+Iteration : 5350/6885 [78%] 
+[Train]	 Loss: 1.11	 Accuracy: 78.12
+Iteration : 5370/6885 [78%] 
+[Train]	 Loss: 1.20	 Accuracy: 81.25
+Iteration : 5390/6885 [78%] 
+[Train]	 Loss: 1.17	 Accuracy: 81.25
+Iteration : 5410/6885 [79%] 
+[Train]	 Loss: 1.37	 Accuracy: 65.62
+Iteration : 5430/6885 [79%] 
+[Train]	 Loss: 1.17	 Accuracy: 81.25
+Iteration : 5450/6885 [79%] 
+[Train]	 Loss: 1.01	 Accuracy: 93.75
+Iteration : 5470/6885 [79%] 
+[Train]	 Loss: 1.22	 Accuracy: 81.25
+Iteration : 5490/6885 [80%] 
+[Train]	 Loss: 1.08	 Accuracy: 90.62
+Iteration : 5510/6885 [80%] 
+[Train]	 Loss: 0.92	 Accuracy: 93.75
+
+====================================================================================================================
+Epoch :  24
+HBox(children=(IntProgress(value=0, max=230), HTML(value='')))
+Iteration : 5530/6885 [80%] 
+[Train]	 Loss: 1.22	 Accuracy: 81.25
+Iteration : 5550/6885 [81%] 
+[Train]	 Loss: 1.04	 Accuracy: 84.38
+Iteration : 5570/6885 [81%] 
+[Train]	 Loss: 1.18	 Accuracy: 90.62
+Iteration : 5590/6885 [81%] 
+[Train]	 Loss: 1.05	 Accuracy: 84.38
+Iteration : 5610/6885 [81%] 
+[Train]	 Loss: 1.17	 Accuracy: 81.25
+Iteration : 5630/6885 [82%] 
+[Train]	 Loss: 1.06	 Accuracy: 84.38
+Iteration : 5650/6885 [82%] 
+[Train]	 Loss: 0.97	 Accuracy: 93.75
+Iteration : 5670/6885 [82%] 
+[Train]	 Loss: 0.95	 Accuracy: 90.62
+Iteration : 5690/6885 [83%] 
+[Train]	 Loss: 1.09	 Accuracy: 81.25
+Iteration : 5710/6885 [83%] 
+[Train]	 Loss: 1.37	 Accuracy: 71.88
+Iteration : 5730/6885 [83%] 
+[Train]	 Loss: 1.22	 Accuracy: 84.38
+Iteration : 5750/6885 [84%] 
+[Train]	 Loss: 1.03	 Accuracy: 94.12
+
+====================================================================================================================
+Epoch :  25
+HBox(children=(IntProgress(value=0, max=230), HTML(value='')))
+Iteration : 5770/6885 [84%] 
+[Train]	 Loss: 1.22	 Accuracy: 93.75
+Iteration : 5790/6885 [84%] 
+[Train]	 Loss: 1.40	 Accuracy: 78.12
+Iteration : 5810/6885 [84%] 
+[Train]	 Loss: 0.95	 Accuracy: 93.75
+Iteration : 5830/6885 [85%] 
+[Train]	 Loss: 1.00	 Accuracy: 93.75
+Iteration : 5850/6885 [85%] 
+[Train]	 Loss: 1.19	 Accuracy: 84.38
+Iteration : 5870/6885 [85%] 
+[Train]	 Loss: 1.18	 Accuracy: 78.12
+Iteration : 5890/6885 [86%] 
+[Train]	 Loss: 1.17	 Accuracy: 84.38
+Iteration : 5910/6885 [86%] 
+[Train]	 Loss: 1.14	 Accuracy: 93.75
+Iteration : 5930/6885 [86%] 
+[Train]	 Loss: 1.13	 Accuracy: 87.50
+Iteration : 5950/6885 [86%] 
+[Train]	 Loss: 1.10	 Accuracy: 87.50
+Iteration : 5970/6885 [87%] 
+[Train]	 Loss: 1.39	 Accuracy: 78.12
+
+====================================================================================================================
+Epoch :  26
+HBox(children=(IntProgress(value=0, max=230), HTML(value='')))
+Iteration : 5990/6885 [87%] 
+[Train]	 Loss: 1.08	 Accuracy: 90.62
+Iteration : 6010/6885 [87%] 
+[Train]	 Loss: 1.00	 Accuracy: 90.62
+Iteration : 6030/6885 [88%] 
+[Train]	 Loss: 1.17	 Accuracy: 87.50
+Iteration : 6050/6885 [88%] 
+[Train]	 Loss: 1.10	 Accuracy: 90.62
+Iteration : 6070/6885 [88%] 
+[Train]	 Loss: 0.97	 Accuracy: 90.62
+Iteration : 6090/6885 [88%] 
+[Train]	 Loss: 1.19	 Accuracy: 90.62
+Iteration : 6110/6885 [89%] 
+[Train]	 Loss: 1.10	 Accuracy: 81.25
+Iteration : 6130/6885 [89%] 
+[Train]	 Loss: 1.08	 Accuracy: 81.25
+Iteration : 6150/6885 [89%] 
+[Train]	 Loss: 0.99	 Accuracy: 93.75
+Iteration : 6170/6885 [90%] 
+[Train]	 Loss: 1.27	 Accuracy: 71.88
+Iteration : 6190/6885 [90%] 
+[Train]	 Loss: 1.39	 Accuracy: 68.75
+Iteration : 6210/6885 [90%] 
+[Train]	 Loss: 0.99	 Accuracy: 94.12
+
+====================================================================================================================
+Epoch :  27
+HBox(children=(IntProgress(value=0, max=230), HTML(value='')))
+Iteration : 6230/6885 [90%] 
+[Train]	 Loss: 1.06	 Accuracy: 93.75
+Iteration : 6250/6885 [91%] 
+[Train]	 Loss: 1.09	 Accuracy: 90.62
+Iteration : 6270/6885 [91%] 
+[Train]	 Loss: 1.11	 Accuracy: 81.25
+Iteration : 6290/6885 [91%] 
+[Train]	 Loss: 1.03	 Accuracy: 78.12
+Iteration : 6310/6885 [92%] 
+[Train]	 Loss: 0.97	 Accuracy: 93.75
+Iteration : 6330/6885 [92%] 
+[Train]	 Loss: 1.10	 Accuracy: 90.62
+Iteration : 6350/6885 [92%] 
+[Train]	 Loss: 0.98	 Accuracy: 93.75
+Iteration : 6370/6885 [93%] 
+[Train]	 Loss: 1.15	 Accuracy: 87.50
+Iteration : 6390/6885 [93%] 
+[Train]	 Loss: 1.45	 Accuracy: 78.12
+Iteration : 6410/6885 [93%] 
+[Train]	 Loss: 1.22	 Accuracy: 78.12
+Iteration : 6430/6885 [93%] 
+[Train]	 Loss: 1.26	 Accuracy: 87.50
+
+====================================================================================================================
+Epoch :  28
+HBox(children=(IntProgress(value=0, max=230), HTML(value='')))
+Iteration : 6450/6885 [94%] 
+[Train]	 Loss: 1.11	 Accuracy: 84.38
+Iteration : 6470/6885 [94%] 
+[Train]	 Loss: 1.19	 Accuracy: 71.88
+Iteration : 6490/6885 [94%] 
+[Train]	 Loss: 1.39	 Accuracy: 84.38
+Iteration : 6510/6885 [95%] 
+[Train]	 Loss: 1.27	 Accuracy: 75.00
+Iteration : 6530/6885 [95%] 
+[Train]	 Loss: 1.26	 Accuracy: 84.38
+Iteration : 6550/6885 [95%] 
+[Train]	 Loss: 1.16	 Accuracy: 87.50
+Iteration : 6570/6885 [95%] 
+[Train]	 Loss: 1.30	 Accuracy: 78.12
+Iteration : 6590/6885 [96%] 
+[Train]	 Loss: 1.15	 Accuracy: 81.25
+Iteration : 6610/6885 [96%] 
+[Train]	 Loss: 0.96	 Accuracy: 96.88
+Iteration : 6630/6885 [96%] 
+[Train]	 Loss: 1.17	 Accuracy: 84.38
+Iteration : 6650/6885 [97%] 
+[Train]	 Loss: 1.11	 Accuracy: 87.50
+Iteration : 6670/6885 [97%] 
+[Train]	 Loss: 1.41	 Accuracy: 70.59
+
+====================================================================================================================
+Epoch :  29
+HBox(children=(IntProgress(value=0, max=230), HTML(value='')))
+Iteration : 6690/6885 [97%] 
+[Train]	 Loss: 1.02	 Accuracy: 90.62
+Iteration : 6710/6885 [97%] 
+[Train]	 Loss: 1.08	 Accuracy: 93.75
+Iteration : 6730/6885 [98%] 
+[Train]	 Loss: 1.19	 Accuracy: 84.38
+Iteration : 6750/6885 [98%] 
+[Train]	 Loss: 0.98	 Accuracy: 87.50
+Iteration : 6770/6885 [98%] 
+[Train]	 Loss: 1.17	 Accuracy: 87.50
+Iteration : 6790/6885 [99%] 
+[Train]	 Loss: 1.00	 Accuracy: 93.75
+Iteration : 6810/6885 [99%] 
+[Train]	 Loss: 0.96	 Accuracy: 93.75
+Iteration : 6830/6885 [99%] 
+[Train]	 Loss: 1.15	 Accuracy: 81.25
+Iteration : 6850/6885 [99%] 
+[Train]	 Loss: 1.03	 Accuracy: 90.62
+Iteration : 6870/6885 [100%] 
+[Train]	 Loss: 1.04	 Accuracy: 87.50
+Iteration : 6890/6885 [100%] 
+[Train]	 Loss: 1.44	 Accuracy: 78.12
