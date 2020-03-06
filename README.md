@@ -1,11 +1,11 @@
 # Emotion Recognition
 ==========================
 
+[ HTML Web Render ]
+
 ## File/Folder Descriptions:
 
-- setup_emotion_recognition.sh  : Set up the environment to run the notebook/scripts.
-							: Also downloads the weights for evaluating the test set. 
-
+- setup_emotion_recognition.sh  : Set up the environment to run the notebook/scripts. Also downloads the weights for evaluating the test set. 
 - Scripts : Python scripts to evaluate test samples. More details in Scripts/Readme.txt
 - CNN_model.ipynb : Jupyter notebook detailing model evolution.
 - Graphs : Graphs of model perfrormance.
