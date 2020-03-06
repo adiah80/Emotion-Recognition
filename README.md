@@ -1,11 +1,11 @@
 # Emotion Recognition
 ==========================
 
+[ HTML Web Render ]
+
 ## File/Folder Descriptions:
 
-- setup_emotion_recognition.sh  : Set up the environment to run the notebook/scripts.
-							: Also downloads the weights for evaluating the test set. 
-
+- setup_emotion_recognition.sh  : Set up the environment to run the notebook/scripts. Also downloads the weights for evaluating the test set. 
 - Scripts : Python scripts to evaluate test samples. More details in Scripts/Readme.txt
 - CNN_model.ipynb : Jupyter notebook detailing model evolution.
 - Graphs : Graphs of model perfrormance.
@@ -37,9 +37,9 @@ or instead run `source setup_emotion_recognition.sh` in the bash terminal.
 
 ## NOTES
 
-- Data to run CNN_model.ipynb is expected to be in the folder `emotion`.
-- Path to train data : ./emotion/meld/train
-- Path to valid data : ./emotion/meld/val
+- Data to run CNN_model.ipynb is expected to be in the folder `./emotion`.
+- Path to train data : `./emotion/meld/train`
+- Path to valid data : `./emotion/meld/val`
 - Model weights to replicate graphs : [ https://drive.google.com/open?id=1w12aKqDjJR0KkLq-XDHVi604gMYuHMCc ]
 - Graphs : 	[ https://drive.google.com/drive/folders/1w12aKqDjJR0KkLq-XDHVi604gMYuHMCc?usp=sharing ]	
   
